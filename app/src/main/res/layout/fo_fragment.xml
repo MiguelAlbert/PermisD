@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:text="Fiches orales version examen"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="01 - Conduite dans des conditions atmosphériques difficiles, route de nuit"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_1"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="02 - Comportement en cas d’accident"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout2"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="03 - Conduite en montagne ou zones accidentées"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout3"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="04 - Gestes et postures – Accident du travail"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout4"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <FrameLayout
+                    android:id="@+id/adcontainer1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <RelativeLayout
+                    android:id="@+id/badge_sec5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="05 - Chargement – Surcharge"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_5"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout5"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="06 - Le dépassement"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_6"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout6"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="07 - Dynamique du véhicule"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_7"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout7"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="08 - Alcool, stupéfiants, médicaments"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_8"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout8"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+                <FrameLayout
+                    android:id="@+id/adcontainer2"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <RelativeLayout
+                    android:id="@+id/badge_sec9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="09 - Eco-conduite et conduite citoyenne"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_9"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout9"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="10 - Porte-à-faux - Angles morts"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_10"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout10"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="11 - Comportement en tunnels et aux passages à niveau"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_11"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout11"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:gravity="left|center_vertical"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="35dp"
+                            android:text="12 - Systèmes de sécurité et d’aides à la conduite"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_12"
+
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignRight="@id/relative_layout12"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:gravity="center_horizontal"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingTop="8dp">
+
+                    <Button
+                        android:id="@+id/btnTirageAuSort"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@color/buttontransparentColor"
+                        android:text="Tirage au sort"
+                        android:textColor="@color/colorsimple" />
+
+                    <TextView
+                        android:id="@+id/tvTirageAuSort"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/buttontransparentColor"
+                        android:gravity="center"
+                        android:padding="13dp"
+                        android:text="00"
+                        android:textColor="@color/colorsimple"
+                        android:textSize="16sp" />
+
+                    <ImageButton
+                        android:id="@+id/imageButtonGoToFEQuestions"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/buttontransparentColor"
+                        android:padding="8dp"
+                        android:textColor="@color/colorsimple"
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+                </LinearLayout>
+
+                <lecho.lib.hellocharts.view.LineChartView
+                    android:id="@+id/chart3"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/buttontransparentColor" />
+
+                <Button
+                    android:id="@+id/btnRAZcompteursFO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/buttontransparentColor"
+                    android:text="Remize à zéro des compteurs"
+                    android:textColor="@color/colorsimple" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

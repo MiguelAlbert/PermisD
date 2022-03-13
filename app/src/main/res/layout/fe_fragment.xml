@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:text="Fiches écrites version examen"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="01"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_1"
+
+                        android:layout_alignRight="@id/relative_layout1"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="0"
+                        android:textColor="#FFF"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="02"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_2"
+                        android:layout_alignRight="@id/relative_layout2"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="03"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout3"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="04"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout4"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="05"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout5"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="06"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_6"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout6"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="07"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_7"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout7"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="08"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_8"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout8"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="09"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_9"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout9"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="10"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_10"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout10"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="11"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_11"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout11"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="12"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_12"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout12"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="13"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_13"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout13"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="14"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_14"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout14"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="15"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_15"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout15"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="16"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_16"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout16"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="17"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_17"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout17"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="18"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_18"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout18"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="19"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_19"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout19"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/badge_sec20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/relative_layout20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:id="@+id/myButton20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginLeft="1dp"
+                            android:layout_marginTop="1dp"
+                            android:layout_marginEnd="1dp"
+                            android:layout_marginRight="1dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@color/buttontransparentColor"
+                            android:text="20"
+                            android:textColor="@color/colorsimple" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/badge_notification_20"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"
+                        android:layout_alignRight="@id/relative_layout20"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="@drawable/item_count_num"
+                        android:text="00"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnTirageAuSort"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/buttontransparentColor"
+                    android:text="Tirage au sort"
+                    android:textColor="@color/colorsimple" />
+
+                <TextView
+                    android:id="@+id/tvTirageAuSort"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/buttontransparentColor"
+                    android:gravity="center"
+                    android:text="00"
+                    android:textColor="@color/colorsimple"
+                    android:textSize="16sp" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonGoToFEQuestions"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#85FFFFFF"
+                    android:padding="8dp"
+                    android:textColor="@color/colorsimple"
+                    app:srcCompat="@android:drawable/ic_menu_send" />
+
+            </LinearLayout>
+
+            <lecho.lib.hellocharts.view.LineChartView
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="@color/buttontransparentColor" />
+
+            <Button
+                android:id="@+id/btnRAZcompteursFE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/buttontransparentColor"
+                android:text="Remize à zéro des compteurs"
+                android:textColor="@color/colorsimple" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

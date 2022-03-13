@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout1theme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonMoinsTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/buttontransparentColor"
+                app:srcCompat="@drawable/ic_action_gauche" />
+
+            <TextView
+                android:id="@+id/textView2Theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Fiches écrites version examen"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButtonPlusTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@color/buttontransparentColor"
+                app:srcCompat="@drawable/ic_action_droite" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/llv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_1theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR1Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n01"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="01"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout1Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="01"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ1Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 1" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+                <FrameLayout
+                    android:id="@+id/adcontainer1"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:id="@+id/llv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_2Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR2Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n02"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="02"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout2Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="02"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ2Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 2" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_3Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR3Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n03"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="03"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout3Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="03"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ3Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 3" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_4Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR4Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n04"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="04"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout4Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="04"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ4Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 4" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/publisherAdView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id1" />
+
+                <LinearLayout
+                    android:id="@+id/llv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_5Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR5Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n05"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="05"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout5Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="05"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ5Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 5" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+                <LinearLayout
+                    android:id="@+id/llv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_6Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR6Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n06"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="06"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout6Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="06"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ6Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 6" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_7Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR7Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n07"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="07"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+                    <FrameLayout
+                        android:id="@+id/FrameLayout7Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="07"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ7Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 7" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_8Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR8Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n08"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="08"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout8Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="08"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ8Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 8" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/publisherAdView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id2" />
+
+                <LinearLayout
+                    android:id="@+id/llv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_9Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR9Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n09"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="09"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout9Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="09"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ9Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 9" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+                <FrameLayout
+                    android:id="@+id/adcontainer3"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:id="@+id/llv10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                    android:id="@+id/swipe_layout_10Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+
+                    android:background="@color/colorAccent"
+                    app:dragEdge="right"
+                    app:mode="normal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/TextViewR10Theme"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/darker_gray"
+                            android:gravity="center"
+                            android:text="Réponse n10"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@color/colorAccent"
+                            android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                            android:minHeight="70dp"
+                            android:text="10"
+                            android:textColor="@android:color/white" />
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:id="@+id/FrameLayout10Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_solid_white">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAccent"
+                            android:gravity="center"
+                            android:text="10"
+                            android:textColor="@android:color/white" />
+
+                        <TextView
+                            android:id="@+id/TextViewQ10Theme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center_vertical"
+                            android:text="Question 10" />
+                    </FrameLayout>
+                </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_11Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR11Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n11"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="11"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout11Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="11"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ11Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 11" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_12Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR12Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n12"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="12"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout12Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="12"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ12Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 12" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/publisherAdView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id2" />
+
+                <LinearLayout
+                    android:id="@+id/llv13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_13Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR13Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n13"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="13"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout13Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="13"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ13Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 13" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+                <LinearLayout
+                    android:id="@+id/llv14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_14Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR14Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n14"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="14"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout14Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="14"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ14Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 14" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+                <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_15Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR15Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n15"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="15"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout15Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="15"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ15Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 15" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_16Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR16Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n16"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="16"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout16Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="16"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ16Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 16" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/publisherAdView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id2" />
+
+                <LinearLayout
+                    android:id="@+id/llv17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_17Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR17Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n17"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="17"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout17Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="17"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ17Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 17" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <FrameLayout
+                    android:id="@+id/adcontainer5"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:id="@+id/llv18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView18"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_18Theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR18Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n18"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="18"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout18Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="18"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ18Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 18" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView19"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_19Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR19Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n19"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="19"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout19Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="19"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ19Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 19" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+
+                <LinearLayout
+                    android:id="@+id/llv20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView20"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+
+                </LinearLayout>
+            <com.chauthai.swipereveallayout.SwipeRevealLayout
+                android:id="@+id/swipe_layout_20Theme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+
+                android:background="@color/colorAccent"
+                app:dragEdge="right"
+                app:mode="normal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TextViewR20Theme"
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/darker_gray"
+                        android:gravity="center"
+                        android:text="Réponse n20"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorAccent"
+                        android:gravity="center_vertical|center|clip_vertical|clip_horizontal"
+                        android:minHeight="70dp"
+                        android:text="20"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:id="@+id/FrameLayout20Theme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border_solid_white">
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorAccent"
+                        android:gravity="center"
+                        android:text="20"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/TextViewQ20Theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center_vertical"
+                        android:text="Question 20" />
+                </FrameLayout>
+            </com.chauthai.swipereveallayout.SwipeRevealLayout>
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:text="" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

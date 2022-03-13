@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_fe_exam"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Fiches écrites examen" />
+        <item
+            android:id="@+id/nav_fe_themes"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Fiches écrites par thèmes" />
+        <item
+            android:id="@+id/nav_verifs"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Vérifications socle 1" />
+        <item
+            android:id="@+id/nav_themes"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Thèmes de vérifications" />
+        <item
+            android:id="@+id/nav_fo"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Fiches Orales examen" />
+        <item
+            android:id="@+id/nav_verifs2"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Vérifications socle 2" />
+        <item
+            android:id="@+id/nav_manoeuvres"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Manoeuvres" />
+        <item
+            android:id="@+id/nav_quit"
+            android:icon="@android:drawable/radiobutton_on_background"
+            android:title="Quitter" />
+    </group>
+
+</menu>
