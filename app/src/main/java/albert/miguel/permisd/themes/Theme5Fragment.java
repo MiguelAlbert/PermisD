@@ -31,8 +31,8 @@ public class Theme5Fragment extends Fragment {
     WebView webView,webView2;
 
     Context thiscontext;
-    //AdView mAdView;
-    //FrameLayout adcontainer;
+    AdView mAdView;
+    FrameLayout adcontainer;
     private static final String AD_UNIT_ID = "ca-app-pub-6506972643290681/2450064282";
 
     @Nullable
@@ -49,7 +49,6 @@ public class Theme5Fragment extends Fragment {
             @Override
             public void onInitializationComplete(InitializationStatus initializationStatus) {}
         });
-/*
         adcontainer = v.findViewById(R.id.adcontainer);
         adcontainer.post(new Runnable() {
             @Override
@@ -57,8 +56,6 @@ public class Theme5Fragment extends Fragment {
                 loadAdd();
             }
         });
-
- */
 
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
             LinearLayout1.setPadding(6, 6, 6, 6);
@@ -81,7 +78,7 @@ public class Theme5Fragment extends Fragment {
 
         return v;
     }
-/*
+
     private void loadAdd() {
         mAdView = new AdView(thiscontext);
         mAdView.setAdUnitId(AD_UNIT_ID);
@@ -105,8 +102,5 @@ public class Theme5Fragment extends Fragment {
         int adwith = (int)(adwithpixels / density);
         return AdSize.getCurrentOrientationInlineAdaptiveBannerAdSize(thiscontext,adwith);
     }
-
- */
-
 
 }
